@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* COLOR PALLET 
+    #000000
+    #3D0000
+    #950101
+    #FF0000
+ */
+
+
+*{
+    margin : 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+/* -----------------NAVBAR----------------------- */
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.5);
+}
+ 
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6em;
+
+    padding: 15px;
+}
+
+.logo-name1 {
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo-name1:hover {
+    color: #FF0000;
+    transition: all .3s ease-in-out;
+}
+
+.logo-name2 {
+    color: #FF0000;
+    padding-left: 1px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.logo-name2:hover {
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 15px;
+}
+
+.navbar li a {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color:#FF0000;
+    transition: all .3s ease-in-out;
+}
+
+.active-box {
+    background-color: #950101;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.active-box:hover {
+    color: white !important;
+}
