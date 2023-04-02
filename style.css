@@ -21,6 +21,7 @@ body {
 
 .nav-container {
     display: flex;
+    position: fixed;
     width: 100%;
     height: 100vh;
   
@@ -33,7 +34,7 @@ body {
     font-size: 20px;
     padding: 15px;
     width: 100%;
-    height: 80px;
+    height: 50px;
     background-color: #000000;
     box-shadow: 0 8px 15px 0 rgba(0,0,0,0.5);
 }
@@ -42,7 +43,6 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 1.6em;
-
     padding: 15px;
 }
 
@@ -99,6 +99,8 @@ body {
     color: white;
     padding: 15px;
     border-radius: 5px;
+    border-style:inset;
+    border-color: #FF0000;
 }
 
 .active-box:hover {
