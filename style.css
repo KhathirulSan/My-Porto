@@ -15,16 +15,14 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #20262E;
 }
 /* -----------------NAVBAR----------------------- */
 
 .nav-container {
     display: flex;
-    position: fixed;
+    position: relative;
     width: 100%;
-    height: 100vh;
-  
 }
 
 .wrapper {
@@ -46,26 +44,28 @@ body {
     padding: 15px;
 }
 
-.logo-name1 {
+.logo-name1 a {
     color: white;
     font-weight: 800;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.logo-name1:hover {
+.logo-name1 a:hover {
     color: #FF0000;
     transition: all .3s ease-in-out;
 }
 
-.logo-name2 {
+.logo-name2 a {
     color: #FF0000;
     padding-left: 1px;
     font-weight: 400;
     cursor: pointer;
+    text-decoration: none;
 
 }
 
-.logo-name2:hover {
+.logo-name2 a:hover {
     color: white;
     transition: all .3s ease-in-out;
 }
@@ -106,3 +106,44 @@ body {
 .active-box:hover {
     color: white !important;
 }
+
+/* -----------------PROFILE----------------------- */
+
+.my-profile {
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.my-profile h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.my-profile span {
+    color: #FF0000;
+    font-size: 70px;
+    margin-left: 250px;
+}
+
+.my-profile p {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.my-profile a button {
+    background-color: #950101;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border-color: #FF0000;
+}
+
