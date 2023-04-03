@@ -424,9 +424,16 @@ footer {
     justify-content: space-around;
 }
 
+
+
 .about-us img {
     height: auto;
     width: 350px;
+    border: 5px solid #fff;
+    border-left: #fff;
+    border-right: #fff;
+    border-top: #fff;
+    border-radius: 35%;
 }
 
 .about-us-text {
@@ -477,7 +484,6 @@ footer {
 }
 
 /* ------------------------------------------- */
-
 
 .about-us-text p {
     color: #fff;
