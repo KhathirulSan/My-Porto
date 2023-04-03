@@ -169,7 +169,7 @@ body {
 .profile-img {
     position: absolute;
     inset: 30px;
-    border: 5px solid rgba(0,0,0,1);
+    border: 35px solid #222831;
     border-radius: 50%;
     z-index: 3;
     overflow: hidden;
@@ -191,7 +191,7 @@ body {
     content: '';
     position: absolute;
     inset: -10px 140px;
-    background: linear-gradient(315deg, #FF0000, #950101);
+    background: linear-gradient(315deg, #FF0000, #710202);
     transition: 0.5;
     animation: animate 4s linear infinite;
 }
@@ -218,7 +218,7 @@ body {
 {
     content: '';
     position: absolute;
-    inset: 6px;
+    inset: 10px;
     background: #20262E;
     border-radius: 50%;
     z-index: 1;
@@ -309,6 +309,7 @@ footer {
     width: 1000px;
     margin: 80px auto;
     color: #fff;
+    background-color: #222831;
     padding: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -329,7 +330,7 @@ footer {
 }
 
 .bar {
-    background-color: #4b5664;
+    background-color: #393E46;
     display: block;
     height: 25px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -420,6 +421,7 @@ footer {
     margin-bottom: 15px;
 }
 
+
 .other-skill h1::after {
     content: '';
     position: absolute;
@@ -444,11 +446,28 @@ footer {
 
 .skill-box {
     padding: 50px;
-    background-color: #20262E;
+    background-color: #222831;
     box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-/* ------------------Efek Animasi------------- */
+.skill-title h3 {
+    color: #fff;
+    margin: 10px;
+}
+
+.skill-img img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-img .skill-icon {
+    width: 125px;
+    height: 125px;
+}
+/* ------------------Efek Animasi Other Skill------------- */
 .skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::before {
     width: 15%;
 }
@@ -485,25 +504,6 @@ footer {
     background-color: #FF0000;
     transition: .5s;
 }
-/* ---------------------------------------------------- */
-.skill-title h3 {
-    color: #fff;
-    margin: 10px;
-}
-
-.skill-img img {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    color: #fff;
-}
-
-.skill-img .skill-icon {
-    width: 125px;
-    height: 125px;
-}
 /* ----------------- About Me --------------------- */
 
 .about-container {
@@ -521,7 +521,6 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
-
 
 
 .about-me img {
@@ -545,6 +544,10 @@ footer {
     letter-spacing: 1.5px;
 }
 
+.about-me-text h1 span {
+    color: #FF0000;
+}
+
 .about-me-text h5 {
     color: #fff;
     font-size: 20px;
@@ -563,25 +566,6 @@ footer {
     color: #FF0000;
     text-decoration: none;
 }
-
-/* --------Animasi Hover About Me----------- */
-
-.about-me h5 a:hover {
-    color: #FF0000;
-    transition: all .3s ease
-}
-
-.about-me h5 span a:hover {
-    color: #fff;
-    transition: all .3s ease
-}
-
-.about-me p span a:hover {
-    color: #fff;
-    transition: all .3s ease
-}
-
-/* ------------------------------------------- */
 
 .about-me-text p {
     color: #fff;
@@ -612,3 +596,108 @@ footer {
     border-color: #FF0000;
     cursor: pointer;
 }
+
+/* --------Animasi Hover About Me----------- */
+
+.about-me h5 a:hover {
+    color: #FF0000;
+    transition: all .3s ease
+}
+
+.about-me h5 span a:hover {
+    color: #fff;
+    transition: all .3s ease
+}
+
+.about-me p span a:hover {
+    color: #fff;
+    transition: all .3s ease
+}
+
+/* ----------------- Contact --------------------- */
+
+.contact-container {
+    width: 60%;
+    padding: 20px;
+    margin: 80px auto;
+    background: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.contact-me-text {
+   width: 50%;
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+}
+
+.contact-me-text h1 {
+    color: #fff;
+    font-size: 65px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+}
+
+.contact-me-text h1 span {
+    color: #FF0000;
+}
+
+.contact-me-text p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
+.contact-me-form {
+    padding: 5px
+}
+
+.contact-me-form label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fff;
+}
+.contact-me-form input, textarea{
+    width: 500px;
+    padding: 8px 15px;
+    outline: none;
+    background: #393E46;
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid #FF0000;
+    font-size: 16px;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.contact-me-form ::placeholder {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.contact-container button {
+    background-color: #950101;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-color: #FF0000;
+    cursor: pointer;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+
