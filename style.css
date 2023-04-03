@@ -406,7 +406,7 @@ footer {
     }
 }
 
-/* ----------------- About Us --------------------- */
+/* ----------------- About Me --------------------- */
 
 .about-container {
     width: 100%;
@@ -415,7 +415,7 @@ footer {
     display: flex; 
 }
 
-.about-us {
+.about-me {
     width: 100%;
     padding: 80px 0px;
     display: flex;
@@ -426,7 +426,7 @@ footer {
 
 
 
-.about-us img {
+.about-me img {
     height: auto;
     width: 350px;
     border: 5px solid #fff;
@@ -436,56 +436,56 @@ footer {
     border-radius: 35%;
 }
 
-.about-us-text {
+.about-me-text {
     width: 500px;
 }
 
-.about-us-text h1 {
+.about-me-text h1 {
     color: #fff;
     font-size: 65px;
     margin-bottom: 25px;
     letter-spacing: 1.5px;
 }
 
-.about-us-text h5 {
+.about-me-text h5 {
     color: #fff;
     font-size: 20px;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
-.about-us-text h5 a {
+.about-me-text h5 a {
     color: #fff;
     text-decoration: none;
 }
-.about-us-text h5 span {
+.about-me-text h5 span {
     color: #FF0000;
 }
 
-.about-us-text h5 span a {
+.about-me-text h5 span a {
     color: #FF0000;
     text-decoration: none;
 }
 
-/* --------Animasi Hover About Us----------- */
+/* --------Animasi Hover About Me----------- */
 
-.about-us h5 a:hover {
+.about-me h5 a:hover {
     color: #FF0000;
     transition: all .3s ease
 }
 
-.about-us h5 span a:hover {
+.about-me h5 span a:hover {
     color: #fff;
     transition: all .3s ease
 }
 
-.about-us p span a:hover {
+.about-me p span a:hover {
     color: #fff;
     transition: all .3s ease
 }
 
 /* ------------------------------------------- */
 
-.about-us-text p {
+.about-me-text p {
     color: #fff;
     font-size: 19px;
     letter-spacing: 1.5px;
@@ -493,17 +493,17 @@ footer {
     text-align: justify;
 }
 
-.about-us-text p span {
+.about-me-text p span {
     color: #FF0000;
     font-weight: 500;
 }
 
-.about-us-text p span a {
+.about-me-text p span a {
     text-decoration: none;
     color: #FF0000;
 }
 
-.about-us button {
+.about-me button {
     background-color: #950101;
     color: white;
     margin-top: 30px;
