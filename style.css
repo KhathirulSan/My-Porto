@@ -406,6 +406,104 @@ footer {
     }
 }
 
+/* ----------------- Other Skills --------------------- */
+
+.other-skill {
+    padding-top: 20px;
+}
+
+.other-skill h1 {
+    color:#fff ;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.other-skill h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 80px;
+    background-color: #FF0000;
+}
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 15px;
+    padding: 80px;
+    font-size: 15px;
+}
+
+.skill-box {
+    padding: 50px;
+    background-color: #20262E;
+    box-shadow: 0 20px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+/* ------------------Efek Animasi------------- */
+.skill-box:hover > .skill-title::after, .skill-box:hover > .skill-title::before {
+    width: 15%;
+}
+
+.skill-title {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 3px;
+    border-radius: 3px 0 0 3px;
+    background-color: #FF0000;
+    transition: .5s;
+}
+
+.skill-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:  50%;
+    width: 0;
+    height: 3px;
+    border-radius: 0 3px 3px 0;
+    background-color: #FF0000;
+    transition: .5s;
+}
+/* ---------------------------------------------------- */
+.skill-title h3 {
+    color: #fff;
+    margin: 10px;
+}
+
+.skill-img img {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.skill-img .skill-icon {
+    width: 125px;
+    height: 125px;
+}
 /* ----------------- About Me --------------------- */
 
 .about-container {
