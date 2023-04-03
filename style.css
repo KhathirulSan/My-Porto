@@ -315,6 +315,7 @@ footer {
 
 .skill h1 {
     text-align: center;
+    font-size: 40px;
 }
 
 .skill h3 {
@@ -403,4 +404,107 @@ footer {
     100% {
         width: 20%;
     }
+}
+
+/* ----------------- About Us --------------------- */
+
+.about-container {
+    width: 100%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: flex; 
+}
+
+.about-us {
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-us img {
+    height: auto;
+    width: 350px;
+}
+
+.about-us-text {
+    width: 500px;
+}
+
+.about-us-text h1 {
+    color: #fff;
+    font-size: 65px;
+    margin-bottom: 25px;
+    letter-spacing: 1.5px;
+}
+
+.about-us-text h5 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.about-us-text h5 a {
+    color: #fff;
+    text-decoration: none;
+}
+.about-us-text h5 span {
+    color: #FF0000;
+}
+
+.about-us-text h5 span a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+/* --------Animasi Hover About Us----------- */
+
+.about-us h5 a:hover {
+    color: #FF0000;
+    transition: all .3s ease
+}
+
+.about-us h5 span a:hover {
+    color: #fff;
+    transition: all .3s ease
+}
+
+.about-us p span a:hover {
+    color: #fff;
+    transition: all .3s ease
+}
+
+/* ------------------------------------------- */
+
+
+.about-us-text p {
+    color: #fff;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.about-us-text p span {
+    color: #FF0000;
+    font-weight: 500;
+}
+
+.about-us-text p span a {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+.about-us button {
+    background-color: #950101;
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border-color: #FF0000;
+    cursor: pointer;
 }
