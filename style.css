@@ -447,6 +447,17 @@ footer {
     border-bottom-left-radius: 35%;
     border-top-right-radius: 25%;
     box-shadow: 0 2px 10px rgba(255, 0, 0, 0.25), 0 10px 10px rgba(255, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.skill-box:hover {
+    border-top-right-radius: 0;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 0;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.25), 0 10px 10px rgba(61, 0, 0, 0.5);
+    
+    
 }
 
 .skill-title h3 {
@@ -793,6 +804,61 @@ footer {
     font-weight: 400;
     font-size: 14px;
     text-align: justify;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
+/* ----------------- Sub-Blog --------------------- */
+.sub-blog-container {
+    width: 950px;
+    height: auto;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 20px;
+    background: #222831;
+    box-shadow: 0 2px 10px rgba(61, 0, 0, 0.25), 0 10px 10px rgba(255, 0, 0, 0.5);
+}
+
+.sub-blog-img {
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.sub-blog-img img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(61, 0, 0, 0.25), 0 5px 5px rgba(255, 0, 0, 0.5);
+}
+
+.blog-article {
+    padding: 20px;
+    color: #fff;
+}
+
+.blog-article h2 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.blog-article p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 0.5in;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+
+.blog-article ol {
+    margin-left: 50px;
+}
+.blog-article ol li {
+    font-size: 15px;
+    text-indent: 0.2in;
     line-height: 25px;
     letter-spacing: 1.5px;
 }
